@@ -17,5 +17,8 @@ Debit card no,account no,cvv,name,expiry month,expiry year.
 ### Step 3: Audit table
 Create Audit table with Trigger method. 
 Time of withdrawn,ac.no,withdrawn amount,Transaction id,balance.
-    1.Trigger function need to be created after updating the customer table.
-    2.8 or 10 digits of transaction id need to generate.
+    1. Trigger function need to be created after updating the customer table.
+    2. 8 or 10 digits of transaction id need to generate.
+
+# Data
+Based on basic bank client information, random data was created to test this application.
